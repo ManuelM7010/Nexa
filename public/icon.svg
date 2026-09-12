@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A192F" />
+      <stop offset="50%" stop-color="#0F2444" />
+      <stop offset="100%" stop-color="#081426" />
+    </linearGradient>
+    <linearGradient id="nexaGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2563EB" />
+      <stop offset="60%" stop-color="#38BDF8" />
+      <stop offset="100%" stop-color="#60A5FA" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="100%" stop-color="#10B981" />
+    </linearGradient>
+  </defs>
+  <!-- Background with subtle border -->
+  <rect width="512" height="512" rx="112" fill="url(#bgGrad)" />
+  <rect width="508" height="508" x="2" y="2" rx="110" fill="none" stroke="#38BDF8" stroke-opacity="0.25" stroke-width="3" />
+  
+  <!-- Geometric NEXA 'N' with cashflow upward dynamics -->
+  <g transform="translate(100, 96)">
+    <!-- Left vertical bar -->
+    <path d="M 32 300 L 32 20 C 32 8.954 40.954 0 52 0 L 76 0 C 87.046 0 96 8.954 96 20 L 96 300 C 96 311.046 87.046 320 76 320 L 52 320 C 40.954 320 32 311.046 32 300 Z" fill="#2563EB" />
+    
+    <!-- Diagonal dynamic flow stem -->
+    <path d="M 68 30 L 236 295 C 242 305 253 310 264 306 C 275 302 280 291 280 280 L 280 180 L 120 20 C 112 10 100 4 88 4 L 72 4 C 64 4 60 12 64 19 Z" fill="url(#nexaGrad)" opacity="0.95" />
+    
+    <!-- Right vertical bar with cashflow arrow ascent -->
+    <path d="M 216 300 L 216 110 C 216 98.954 224.954 90 236 90 L 260 90 C 271.046 90 280 98.954 280 110 L 280 300 C 280 311.046 271.046 320 260 320 L 236 320 C 224.954 320 216 311.046 216 300 Z" fill="#38BDF8" />
+
+    <!-- Upward liquidity trend spark indicator -->
+    <circle cx="280" cy="50" r="16" fill="url(#accentGrad)" />
+    <path d="M 268 50 L 280 34 L 292 50 Z" fill="#FFFFFF" />
+  </g>
+</svg>

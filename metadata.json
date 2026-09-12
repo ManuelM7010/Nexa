@@ -1,0 +1,6 @@
+{
+  "name": "NEXA Finance",
+  "description": "Personal Finance & Daily Cash Flow — Aplicación profesional de finanzas personales, proyección de liquidez diaria y presupuesto local-first.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
